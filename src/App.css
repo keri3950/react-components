@@ -187,6 +187,11 @@ a:hover {
   text-decoration: none;
 }
 
+.job-board {
+  background-color: #f5f6ef;
+  padding: 1.5rem;
+}
+
 .job-title {
   font-size: 24px;
   font-weight: bold;
