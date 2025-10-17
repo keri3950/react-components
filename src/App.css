@@ -170,3 +170,70 @@
   margin-top: 0.5rem;
   text-align: center;
 }
+
+/** Job board styes */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6600;
+  margin-bottom: 24px;
+}
+
+.job-items {
+  display: grid;
+  row-gap: 16px;
+}
+
+.job-post {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 16px;
+  display: grid;
+  row-gap: 8px;
+}
+
+.job-post__title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.job-post__metadata {
+  font-size: 14px;
+  color: #444;
+}
+
+.load-more-button {
+  background-color: #ff6600;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.load-more-button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.load-more-button:hover {
+  background-color: #e65c00;
+}
