@@ -59,7 +59,7 @@ export default function GridLights() {
   return (
     <div className="wrapper">
       <div
-        className="grid"
+        className="grid-lights"
         style={{ gridTemplateColumns: `repeat(${config[0].length}, 1fr)` }}
       >
         {config.flat(1).map((cell, index) => {
